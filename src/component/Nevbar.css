@@ -1,0 +1,10 @@
+.icon{
+    /* align-items: left; */
+    display: flex;
+    box-shadow: 2px -5px 16px black ;
+    align-items: center;
+}
+img{
+    /* width: 10rem; */
+    margin: auto;
+}

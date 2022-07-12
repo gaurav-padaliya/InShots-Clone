@@ -1,0 +1,21 @@
+.bar{
+    background-color: #f44336;
+    margin-top: 50px;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px rgb(192, 187, 187);
+}
+.image{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 802px) {
+    .bar{
+        display: none;
+    }
+}

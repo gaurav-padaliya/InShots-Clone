@@ -1,0 +1,65 @@
+*{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.container{
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 5px;
+    box-shadow: 0px 0px 10px rgb(192, 187, 187);
+    display: grid;
+    grid-template-columns: 300px auto;
+    flex-direction: row;
+    border-radius: 3px;
+}
+.image1{
+    /* position: absolute; */
+    width: 256px;
+    height: 40vh;
+    background: url('https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/06_jun/25_sat/img_1656138815658_409.jpg?');
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.headline{
+    
+    color:#44444d;
+    font-size: 23px;
+    font-stretch: ultra-condensed;
+}
+.footer1{
+    color: #201e1e;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+.content{
+    padding: 20px 0px 30px 0px;
+}
+
+@media screen and (min-width:0px) {
+    .container{
+        grid-template-columns: auto;
+        grid-template-rows: 1fr auto;
+    }
+    .image1{
+        width: 100%;
+        height: 70vh;
+    }
+}
+@media screen and (min-width:650px) {
+    .container{
+        grid-template-columns: 300px auto;
+    }
+    .image1{
+        /* position: absolute; */
+        width: 256px;
+        height: 40vh;
+    }
+
+}
