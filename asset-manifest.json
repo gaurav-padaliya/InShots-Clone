@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Inshots-clone/static/css/main.5c17d3b7.css",
+    "main.js": "/Inshots-clone/static/js/main.911213dd.js",
+    "index.html": "/Inshots-clone/index.html",
+    "main.5c17d3b7.css.map": "/Inshots-clone/static/css/main.5c17d3b7.css.map",
+    "main.911213dd.js.map": "/Inshots-clone/static/js/main.911213dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c17d3b7.css",
+    "static/js/main.911213dd.js"
+  ]
+}
